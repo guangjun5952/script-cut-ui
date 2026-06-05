@@ -1,7 +1,21 @@
 {
-	"name": "react-video-editor",
+	"name": "script-cut-ui",
 	"version": "0.1.0",
+	"description": "A script analysis, A Roll / B Roll planning, and storyboard export tool based on DesignCombo React Video Editor.",
 	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/guangjun5952/script-cut-ui.git"
+	},
+	"homepage": "https://github.com/guangjun5952/script-cut-ui#readme",
+	"keywords": [
+		"script-editor",
+		"video-editor",
+		"storyboard",
+		"a-roll",
+		"b-roll",
+		"designcombo"
+	],
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
