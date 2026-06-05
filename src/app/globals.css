@@ -270,6 +270,30 @@
   }
 }
 
+@keyframes script-monitor-scroll {
+  0% {
+    transform: translateY(0);
+  }
+  12% {
+    transform: translateY(0);
+  }
+  88% {
+    transform: translateY(calc(-100% + 100px));
+  }
+  100% {
+    transform: translateY(calc(-100% + 100px));
+  }
+}
+
+.script-monitor-copy {
+  transform: translateY(0);
+}
+
+.script-monitor-copy--scrolling {
+  animation: script-monitor-scroll var(--script-scroll-duration, 8s) linear
+    infinite;
+}
+
 .player-container {
   width: 100%;
   height: 100%;
